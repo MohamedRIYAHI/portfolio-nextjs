@@ -36,12 +36,12 @@ export default function Portfolio() {
 
   const experiences = [
     {
-      title: 'PFA: Plateforme Scan des chèques',
+      title: 'Stage PFA: Une Plateforme Scan des chèques',
       company: 'DocArchive',
       period: 'Juillet 2025 - Septembre 2025',
       location: 'Bouskoura, Maroc',
       description: 'Développement d\'une application ASP.NET MVC permettant l\'extraction automatique du code CMC7 et de la signature à partir d\'images de chèques.',
-      technologies: ['ASP.NET', 'MVC', 'EmguCV', 'Tesseract', 'SQL Server', 'IIS']
+      technologies: ['ASP.NET', 'MVC', 'EmguCV', 'Tesseract', 'SQL Server', 'IIS' , 'OCR']
     },
     {
       title: 'Chef d\'équipe de Numérisation',
@@ -88,30 +88,30 @@ export default function Portfolio() {
   const projets = [
     {
       title: 'Application web sécurisée',
-      description: 'Plateforme e-commerce avec système de recommandation et WAF.',
+      description: 'Développement d’une plateforme web e-commerce mettant en avant des produits écologiques, avec un système de recommandation intelligent et une sécurisation des transactions à travers un pare-feu applicatif web (WAF).',
       technologies: ['Java JEE', 'Angular', 'Spring Boot', 'Azure'],
-      image: '/images/secWEB.png',
+      image: '/images/image.png',
       year: '2024'
     },
     {
       title: 'Gestion de Produits',
-      description: 'Application avec authentification admin.',
+      description: 'Conception d’une application web de gestion de produits et catégories avec un système d’authentification pour restreindre les accès administratifs.',
       technologies: ['.NET Core', 'Tailwind CSS', 'SQL Server'],
-      image: '/images/projet1.png',
+      image: '/images/PPP.png',
       year: '2024'
     },
     {
-      title: 'Plateforme d\'inscription',
-      description: 'Système de gestion des inscriptions FSAC.',
+      title: 'Plateforme d\'inscription formations continues',
+      description: 'Création d’une plateforme permettant la gestion des inscriptions et des formations continues, facilitant la communication entre étudiants et encadrants.',
       technologies: ['PHP', 'Laravel', 'Tailwind', 'Alpine.js'],
-      image: '/images/projet1.png',
+      image: '/images/FFF.png',
       year: '2023'
     },
     {
       title: 'Scan des chèques',
-      description: 'Extraction automatique avec OCR.',
+      description: 'j’ai conçu et développé une application web complète dédiée au traitement automatique des chèques bancaires Le projet visait à numériser et automatiser la vérification des chèques grâce à des techniques de vision par ordinateur et de reconnaissance optique de caractères (OCR).',
       technologies: ['ASP.NET', 'MVC', 'EmguCV', 'Tesseract', 'SQL Server', 'IIS'],
-      image: '/images/projet1.png',
+      image: '/images/secWEB.png',
       year: '2025'
     }
   ];
